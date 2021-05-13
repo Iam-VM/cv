@@ -1,0 +1,23 @@
+{{#if certFound}}
+    {{#if eventFound}}
+        <div>
+            <div>IEEE Student Branch GEC Palakkad</div>
+            <div>Certificate - <span style="color:green">Valid</span></div>
+            <div>Event Name: {{eventName}}</div>
+            <div>Event Date: {{eventStartDate}}</div>
+            <div>Recipient Name: {{recipientName}}</div>
+            <div>Recipient Email: {{hiddenEmail}}</div>
+        </div>
+    {{else}}
+        <div>
+            <div>IEEE Student Branch GEC Palakkad</div>
+            <div>Sorry, this event is not registered !!</div>
+            <div>Please contact Coordinators</div>
+        </div>
+    {{/if}}
+{{else}}
+    <div>
+        <div>IEEE Student Branch GEC Palakkad</div>
+        <div>Sorry, Certificate - <span style="color:red">Invalid</span></div>
+    </div>
+{{/if}}
