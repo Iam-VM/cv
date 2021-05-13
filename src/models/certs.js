@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = new Sequelize('sqlite::memory:');
+const sequelize = require('../sequelizeConfig/config');
 
 const Certs = sequelize.define('cert', {
     id: {

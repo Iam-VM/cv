@@ -9,10 +9,11 @@ const app = express();
 
 sequelizeAuthenticate(sequelize);
 
-const PORT = process.env['PORT'] || 4000;
+const PORT = process.env['PORT'] || 8000;
 
-app.get('/:refId', (req, res) => {
+app.get('/ref/:refId', (req, res) => {
     const refId = req.params.refId;
+    console.log(refId);
     Certs.findByPk(refId)
         .then((cert) => {
             if (cert === null) {
