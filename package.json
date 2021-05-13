@@ -1,0 +1,26 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Certificate Validator - using QR Codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iam-VM/cv.git"
+  },
+  "keywords": [
+    "certificate",
+    "validator"
+  ],
+  "author": "vishnuMohanan <iamvm.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Iam-VM/cv/issues"
+  },
+  "homepage": "https://github.com/Iam-VM/cv#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
