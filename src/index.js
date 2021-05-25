@@ -28,11 +28,11 @@ const PORT = process.env['PORT'] || 8000;
 app.use(express.static('public'))
 
 
-// routes
+// API
 app.use('/ref', refRouter);
 
 
-// Sending 404 for invalid routes
+// Sending 404 for invalid API
 app.get('*', (req, res) => {
     res.send('404 Error');
 });
