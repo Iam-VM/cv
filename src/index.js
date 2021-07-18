@@ -9,6 +9,8 @@ const handlebars = require('express-handlebars');
 const app = express();
 sequelizeAuthenticate(sequelize);
 
+app.use(express.static("src/views/images"));
+
 // Setting up app to use the handlebars engine
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));

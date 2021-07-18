@@ -1,0 +1,95 @@
+.parent__div {
+  background-image: url("/dt-bg.svg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* .sb__name {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+} */
+
+.certificate__validator {
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.box {
+  width: 30%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #c4c4c41a;
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: Poppins;
+  line-height: 30px;
+  border-radius: 10px;
+}
+.inside__box {
+  text-align: center;
+}
+.verification__text {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logos {
+  padding-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+.main__footer {
+  padding-top: 40px;
+}
+.recipient__name {
+  font-weight: 700;
+}
+.recipient__email {
+  font-weight: 300;
+}
+.text {
+  font-weight: 300;
+}
+.event__name {
+  font-weight: 700;
+}
+.event__date {
+  font-weight: 300;
+}
+.sb__name {
+  font-weight: 300;
+}
+footer p {
+  font-family: Poppins;
+}
