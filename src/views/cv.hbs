@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--{{#if certFound}}-->
 <!--    {{#if eventFound}}-->
         <div>
@@ -7,6 +8,44 @@
             <div>Event Date: {{eventStartDate}}</div>
             <div>Recipient Name: {{recipientName}}</div>
             <div>Recipient Email: {{hiddenEmail}}</div>
+=======
+{{#if certFound}}
+    {{#if eventFound}}
+        <div class="parent__div" >
+            <img src="/logo-cv.svg" style="width: 353px;height: 44px;align-self:flex-start;  left: 88px;top: 28px;display:block;margin-bottom:2rem; margin-left: 25px; margin-top: 20px;" />
+            <div class="box">
+                <div class="inside__box">
+                    <div class="text">This certificate is issued to</div>
+                    <div class="recipient__name">{{recipientName}}</div>
+                    <div class="recipient__email">{{hiddenEmail}}<br>for<br></div>
+                    <div class="event__name">{{eventName}}</div>
+                    <div class="event__date">Conducted on {{eventStartDate}}</div>
+                </div>
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+                </style>
+                <div class="verification__text">
+                    <img src="/verified-tick.svg" style="height: 45px;width: 47px;margin-right: 5px; margin-left: 5px; margin-top: auto;margin-bottom: auto;"/>
+                <div class="sb__name"> <span style="color:green;  margin-top: auto;margin-bottom: auto;   font-weight: 700;"> verified &nbsp; </span> by IEEE
+                SB GEC Palakkad</div> </div>
+            </div>
+             <div class="main__footer">
+                <div class="logos">
+                <img src="/sb.svg" style="border-right: 2px solid #fff; padding-right: 20px; margin-top: auto;margin-bottom: auto;" />
+                <img src="/logo-ieee.svg" style="padding-left: 20px;margin-top: auto;margin-bottom: auto;" />
+                </div>
+                <footer>
+                    <p>© 2021. IEEE SB GEC Palakkad. All Rights Reserved.</p>
+
+                </footer>
+            </div> 
+            
+            
+            
+           
+
+            {{!-- <div class="certificate">Certificate - <span style="color:green">Valid</span></div> --}}
+>>>>>>> 8177e8144b1ec849d582884d668832eb4c9627db
         </div>
     {{else}}
         <div>
@@ -22,4 +61,39 @@
     </div>
 {{/if}}
 <br /><br /><br />
-<strong>Under Development</strong>
+
+
+
+
+
+
+
+
+
+
+
+{{!-- {{#if certFound}}
+{{#if eventFound}}
+<div>
+    <div>IEEE Student Branch GEC Palakkad..</div>
+    <div>Certificate - <span style="color:green">Valid</span></div>
+    <div>Event Name: {{eventName}}</div>
+    <div>Event Date: {{eventStartDate}}</div>
+    <div>Recipient Name: {{recipientName}}</div>
+    <div>Recipient Email: {{hiddenEmail}}</div>
+</div>
+{{else}}
+<div>
+    <div>IEEE Student Branch GEC Palakkad</div>
+    <div>Sorry, this event is not registered !!</div>
+    <div>Please contact Coordinators</div>
+</div>
+{{/if}}
+{{else}}
+<div>
+    <div>IEEE Student Branch GEC Palakkad</div>
+    <div>Sorry, Certificate - <span style="color:red">Invalid</span></div>
+</div>
+{{/if}}
+<br /><br /><br />
+<strong>Under Development</strong> --}}
