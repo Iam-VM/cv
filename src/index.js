@@ -27,6 +27,7 @@ app.engine('hbs', handlebars({
 const PORT = process.env['PORT'] || 8000;
 
 // middlewares
+app.use(express.static('src/views/images'))
 app.use(express.static('public'))
 
 
